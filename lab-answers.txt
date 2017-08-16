@@ -1,3 +1,24 @@
 Lab Answers:
 
-1.
+1. select * from customers
+
+2. select distinct country from customers
+
+3. select * from customers where customerid like 'BL%'
+
+4. select * from orders limit 100
+
+5. select * from customers where postalcode in ('1010' , '3012' , '12209', '05023')
+
+6. select * from orders where shipregion is null
+
+7. select * from customers order by country, city
+
+8. 	insert into customers (customerid, companyname, contactname, contacttitle)
+	values ('DYLAN', 'Cool Place', 'Dylan Dunne', 'Boss Daddy Waddy')
+
+9. update orders set shipregion='EuroZone' where shipcountry='France'
+
+10. DELETE FROM order_details WHERE quantity = '1'
+
+11.
