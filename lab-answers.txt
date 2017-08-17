@@ -21,4 +21,17 @@ Lab Answers:
 
 10. DELETE FROM order_details WHERE quantity = '1'
 
-11.
+
+11. 
+	select avg(quantity) from order_details
+	select min(quantity) from order_details
+	select max(quantity) from order_details
+	
+12. 
+	select avg(quantity) from order_details GROUP BY orderid
+	select min(quantity) from order_details GROUP BY orderid
+	select max(quantity) from order_details GROUP BY orderid
+
+13. 
+	select customerid from orders
+	where orderid='10290'
